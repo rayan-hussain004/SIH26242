@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RPL Assess - Skill recognition for every worker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><span class="bolt">⚡</span> RPL Assess</a>
+  <nav>
+    <a href="#/worker" data-i="nav_worker">Worker</a>
+    <a href="#/assess" data-i="nav_assessor">Assessor</a>
+    <a href="#/admin" data-i="nav_admin">Admin</a>
+  </nav>
+  <select id="lang" aria-label="Language">
+    <option value="en">English</option>
+    <option value="hi">हिन्दी</option>
+    <option value="kn">ಕನ್ನಡ</option>
+  </select>
+</header>
+<div class="statusbar" id="status" role="status"></div>
+<main id="app"></main>
+<div id="toast" role="alert"></div>
+<script src="app.js"></script>
+</body>
+</html>
